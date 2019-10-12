@@ -1,0 +1,11 @@
+1. sort button (where?)
+2. "move to bags" interface
+ * add an "inventory" slot in the main "bags" interface
+ * shift-click will work
+ * "all" checkbox (moves all of the same kind of item, not just the stack)
+3. trashcan tab updates:
+ * "all" checkbox (trashes all of the same kind of item instead of just the stack)
+ * "drop" checkbox (drops items instead of erasing them)
+4. dump to/from bags
+ * buttons to move all items to/from a bag
+ * ignores the "hot bar" slots (first 8)
