@@ -9,5 +9,6 @@ function ui_trashcan.log(level, message, ...)
     minetest.log(level, ("[%s] %s"):format(ui_trashcan.modname, message))
 end
 
+dofile(ui_trashcan.modpath .. "/bagdrop.lua")
 dofile(ui_trashcan.modpath .. "/clear_grid.lua")
 dofile(ui_trashcan.modpath .. "/trashcan.lua")
